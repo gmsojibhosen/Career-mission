@@ -1,0 +1,238 @@
+/* resposive */
+
+/* laptop device */
+@media screen and (max-width:1200px) {
+    
+.btn {
+    font-size: 18px;
+    padding: 15px 22px; 
+}
+
+.banner-heading h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 22px;
+}
+
+.card-item{
+    background:linear-gradient(#E6EDF9, #9DE5FF);
+    width: 280px;
+    padding: 36px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 5px #00000020;
+}
+
+
+.card-item h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.card-item a {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+
+}
+
+}
+
+/* tablet device */
+@media screen and (max-width:1024px) {
+
+  #banner-section,#inspiration-section , #header-contain {
+    margin: 0 auto 60px auto; 
+ }
+
+ .inspiration-header {
+    display: block;
+    text-align: center;
+  
+    margin: 0 auto;
+    width: 80%;
+}
+
+.inspiration-header h2 {
+    font-size: 30px;
+   
+    margin-bottom: 16px;
+
+}
+
+    .banner-heading h1 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 48px;  
+}
+
+
+#blog-container-section {
+    padding: 40px;
+    background-color: white;
+    
+   
+    justify-content: space-between;
+    flex-direction: column-reverse;
+
+}
+
+.blog-container-header {
+    max-width: 100%;
+}
+
+.blog-img {
+    max-width: 100%;
+}
+
+.blog-container-header h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+
+#blog-section {
+    margin: 0 auto 60px auto;
+   
+}
+
+
+.inspiration-header {
+    max-width:100%;
+}
+
+.inspirtion-container {
+    max-width: 100%;
+}
+.inspiration-header p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.videos-sction iframe {
+    height: 380px;
+}
+
+#card {
+    
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.card-item{
+   
+    width: 370px;
+  
+    
+}
+
+
+.targets-sction {
+   
+  margin: 0 auto 60px auto;
+}
+
+
+.card-item{
+  text-align: center;
+}
+
+#footer-container {
+  
+    flex-direction: column-reverse;
+    gap: 10px;
+    
+}
+
+
+.footer-creator-text p {
+    
+    font-size: 18px;
+}
+}
+
+/* mobile device */
+@media screen and (max-width:640px) {
+
+#banner-section .banner-img {
+ 
+   
+    height: 220px;
+ 
+    margin-bottom: 40px;
+}
+
+
+.banner-heading h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    
+}
+
+    .banner-text p {
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+#banner-section {
+    padding: 40px 10px;
+}
+
+.blog-header h2 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#blog-section {
+   max-width: 87.5%;
+    /* margin: 0 auto 100px auto; */
+   
+}
+
+
+ .inspiration-header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.videos-sction iframe {
+    height: 240px;
+}
+
+.videos-sction{
+    padding: 20px;
+    
+}
+
+
+#footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+#footer-sction {
+ width: 100%;
+   padding: 10px 20px;
+    
+}
+
+
+.footer-icon  img{
+    display: inline-block;
+}
+}
+
+
+
